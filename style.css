@@ -155,10 +155,10 @@ header ul li a {
 
 .circle {
   position: absolute;
-  top: 0;
+  bottom: 1px;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 1100px;
   background: #f37ba8;
   clip-path: circle(600px at right 800px);
 }
@@ -257,10 +257,6 @@ header ul li a {
   bottom: 15px;
 }
 
-
-
-
-
 .menu_container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -281,7 +277,6 @@ header ul li a {
   height: 245px;
   margin: 0 auto;
   overflow: hidden;
-
 }
 
 .menu .menu_box .menu_card .menu_image img {
@@ -300,7 +295,6 @@ header ul li a {
   padding: 10px;
 }
 .menu_info > h2 {
-
   font-size: 20px;
 }
 
@@ -348,13 +342,10 @@ header ul li a {
   font-family: mv boli;
 }
 
-
 .whatsNew .whatsNew_image_box {
   width: 300px;
   margin: 10px auto;
 }
-
-
 
 .whatsNew .whatsNew_image_box .whatsNew_image img {
   width: 300px;
@@ -378,8 +369,8 @@ header ul li a {
 }
 
 .whatsNew_image_box:hover .whatsNew_detail {
-opacity: 1;
-background-color: rgba(0,0,0,0.5);
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .whatsNew_detail p {
   text-align: center;
@@ -410,7 +401,6 @@ background-color: rgba(0,0,0,0.5);
   background-position: center;
   margin-bottom: 100px;
 }
-
 
 .order_image img {
   width: 500px;
@@ -444,7 +434,7 @@ background-color: rgba(0,0,0,0.5);
   align-items: center;
   justify-content: space-between;
   display: grid;
-  grid-template-columns: 1fr 1fr; 
+  grid-template-columns: 1fr 1fr;
 }
 
 .order .order_main .order_image img {
@@ -456,8 +446,7 @@ background-color: rgba(0,0,0,0.5);
   align-items: flex-start;
   flex-direction: column;
 
-margin-left: -30px;
-  
+  margin-left: -30px;
 }
 
 .order_form {
@@ -503,12 +492,9 @@ margin-left: -30px;
   border-radius: 3px;
 }
 
-.input input:focus
-{
+.input input:focus {
   border: 2px solid #f37ba8;
 }
-
-
 
 .order_button {
   border: none;
@@ -522,8 +508,6 @@ margin-left: -30px;
   text-decoration: none;
   cursor: pointer;
 }
-
-
 
 /*Footer*/
 
@@ -592,7 +576,6 @@ footer {
   margin: 0;
   padding: 20px 20px 10px 20px;
   margin-bottom: -100px;
-
 }
 .main_footer {
   display: flex;
